@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.10@sha256:f5fa657f39834fb35dc3ac0649fa47657e1148685893a5becb43e9543b08eaf9
+      - image: circleci/golang:1.10@sha256:1a2eb2a9444b31b4bf14423c497fa9cb9d2695b4b8cb669988548ee9943e4e4e
     working_directory: /go/src/github.com/sam-myers/santorini
     steps:
       - checkout
